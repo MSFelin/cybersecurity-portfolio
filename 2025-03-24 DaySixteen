@@ -1,0 +1,15 @@
+Open Systems Interconnection Model
+Transmission Control Protocol - Internet Protocol
+OSI Model: 1Please 2Do 3Not 4Throw 5Sausage 6Pizza 7Away
+7: Application
+6: Presentation
+5: Session
+4: Transport
+3: Network
+2: Data-Link
+1: Physical
+TCP-IP From top to bottom
+Application (OSI 5, 6, & 7)
+Transport (OSI 4)
+Internet (OSI 3)
+Link-Layer/Network Access/Network Interface (OSI 1 & 2)
