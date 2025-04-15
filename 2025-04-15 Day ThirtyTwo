@@ -1,0 +1,32 @@
+Three kinds of servers: Desktop/Tower, Rack Mount, Blade 
+
+Straight through, crossover, rollover - Where & When to use what?
+https://www.youtube.com/live/ZrG4yqmRJUw
+
+Router, PC/Server to Hub, Switch, Router, PC/Server
+(on OSI Model:
+Layer 3: Routers, Servers, PC
+Layer 2: Switch
+Layer 1: Hub)
+
+MDI(router, server, pc), MDI-X(switch, hub), Auto MDI, Auto MDI-X
+
+SPAN (Switched Port Analyzer): Collecting information from a specific port/port mirroring
+TAP (Test Access Point):Copies everything coming through the firewall
+Packet Sniffing Software: Wireshark (gui), TCP Dump (cli)
+
+MAC Address Table (CAM Table)
+
+Port Aggregation: redundancy, increasing bandwidth
+
+NIC, Bridge, Switch, WAP
+
+ARP: Address Resolution Protocol…asking for everyone’s MAC address (and IP address)
+FF:FF:FF:FF:FF:FF - Broadcast to all devices on network
+
+Power over Ethernet (PoE)
+	Power Sourcing Equipment (PSE)
+	PoE Switch
+	Powered Device (PD)
+	PoE Injector
+
