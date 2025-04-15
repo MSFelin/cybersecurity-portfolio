@@ -1,0 +1,16 @@
+(Ethernet) If there are too many devices on one cable, speed slows way down because of too many collisions when everyone is trying to Transfer and Receive at the same time. 
+So we use a switch with many ports/jacks. Make the switch smart by Learning the MAC address of each device so when info comes in, there is no need to transfer the info to 
+every jack. Only transfer to the correct jack with the correct MAC address corresponding to the MAC address attached to the message being Transferred/Received. 
+This “intelligence” is what makes a switch different from a hub. Then inside the switch is a Mesh system of connections (so each port is connected to every other port). 
+The functional rule we use here is: CSMA/CD: Carrier Sense Multiple Access/Collision Detection (Which really isn’t needed in a switch but is needed in a hub…)
+
+Twisted Pair, coax, fiber can all be ethernet ONCE ITS PLUGGED INTO switch or connected to the Network Card but before that they are just cables.
+
+Seven Parts of an Ethernet Frame
+Preamble: 64 bit information telling the receiving NIC that a frame is coming and where the frame starts
+Destination MAC: 6 bytes
+Source MAC: 6 bytes
+Type: 2 bytes
+Data: 46 - 1500 Bytes
+Pad (part of the data, needed only if the real data is less than 46 bytes because if it is less than 46 bytes, the system will consider it a crash or collision and not real data. Basically, the system thinks it is a mistake. A padding is added to meet the 46 byte minimum.)
+FCS: 4 bytes
