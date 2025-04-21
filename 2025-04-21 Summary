@@ -1,0 +1,9 @@
+Routing Protocols
+Internal Routing Protocols: Distance Vector, Link-State, Hybrid
+Distance Vetor: keywords: Neighbor, Rumore, Second hand info, Hop: RIP, IGRP (protocol names)
+Link-State: keywords: FUll, actual, direct information; Hop/delay/latency/cost/bandwidth: OSPF, IS-IS (protocol names)
+Hybrid: EIGRP (protocol name)
+External Routing...to the Internet: BGP (protocol name)
+
+Routing Algorithms
+Routing Tables
